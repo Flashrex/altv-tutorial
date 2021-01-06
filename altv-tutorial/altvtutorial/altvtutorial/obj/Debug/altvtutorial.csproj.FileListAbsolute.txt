@@ -1,0 +1,17 @@
+E:\Coding\AltV\altv-release\altv-server\resources\altvtutorial\altvtutorial.deps.json
+E:\Coding\AltV\altv-release\altv-server\resources\altvtutorial\altvtutorial.dll
+E:\Coding\AltV\altv-release\altv-server\resources\altvtutorial\altvtutorial.pdb
+E:\Coding\AltV\alt-tutorial\altv-tutorial\altvtutorial\altvtutorial\obj\Debug\altvtutorial.AssemblyInfoInputs.cache
+E:\Coding\AltV\alt-tutorial\altv-tutorial\altvtutorial\altvtutorial\obj\Debug\altvtutorial.AssemblyInfo.cs
+E:\Coding\AltV\alt-tutorial\altv-tutorial\altvtutorial\altvtutorial\obj\Debug\altvtutorial.csproj.CoreCompileInputs.cache
+E:\Coding\AltV\alt-tutorial\altv-tutorial\altvtutorial\altvtutorial\obj\Debug\altvtutorial.csproj.CopyComplete
+E:\Coding\AltV\alt-tutorial\altv-tutorial\altvtutorial\altvtutorial\obj\Debug\altvtutorial.dll
+E:\Coding\AltV\alt-tutorial\altv-tutorial\altvtutorial\altvtutorial\obj\Debug\altvtutorial.pdb
+E:\Coding\AltV\alt-tutorial\altv-tutorial\altvtutorial\altvtutorial\obj\Debug\altvtutorial.csprojAssemblyReference.cache
+E:\Coding\AltV\altv-tutorial\altv-tutorial\altvtutorial\altvtutorial\obj\Debug\altvtutorial.csprojAssemblyReference.cache
+E:\Coding\AltV\altv-tutorial\altv-tutorial\altvtutorial\altvtutorial\obj\Debug\altvtutorial.AssemblyInfoInputs.cache
+E:\Coding\AltV\altv-tutorial\altv-tutorial\altvtutorial\altvtutorial\obj\Debug\altvtutorial.AssemblyInfo.cs
+E:\Coding\AltV\altv-tutorial\altv-tutorial\altvtutorial\altvtutorial\obj\Debug\altvtutorial.csproj.CoreCompileInputs.cache
+E:\Coding\AltV\altv-tutorial\altv-tutorial\altvtutorial\altvtutorial\obj\Debug\altvtutorial.dll
+E:\Coding\AltV\altv-tutorial\altv-tutorial\altvtutorial\altvtutorial\obj\Debug\altvtutorial.pdb
+E:\Coding\AltV\altv-tutorial\altv-tutorial\altvtutorial\altvtutorial\obj\Debug\altvtutorial.csproj.CopyComplete

@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <center>
+            <div class="login">
+                <div class="title">
+                    <p id="title">Login</p>
+                    <i class="fas fa-user-plus" onclick="switchScreen(2)"></i>
+                </div>
+                <input type="text" id="loginUsername" autocomplete="off" autofocus placeholder="Username">
+                <hr color="#74EBD5" width="50%" style="margin-top: -5px;">
+                <input type="password" id="loginPassword" autocomplete="off" autofocus placeholder="Passwort">
+                <hr color="#74EBD5" width="50%" style="margin-top: -5px;">
+                <button onclick="sendData(1)">Einloggen</button>
+                <p id="loginError">FEHLER</p>
+            </div>
+
+            <div class="register" style="display: none;">
+                <div class="title">
+                    <p id="title">Registrieren</p>
+                    <i class="fas fa-user-minus" onclick="switchScreen(1)"></i>
+                </div>
+                <input type="text" id="registerUsername" autocomplete="off" autofocus placeholder="Username">
+                <hr color="#74EBD5" width="50%" style="margin-top: -5px;">
+                <input type="password" id="registerPassword" autocomplete="off" autofocus placeholder="Passwort">
+                <hr color="#74EBD5" width="50%" style="margin-top: -5px;">
+                <input type="password" id="registerPasswordRepeat" autocomplete="off" autofocus placeholder="Passwort wiederholen">
+                <hr color="#74EBD5" width="50%" style="margin-top: -5px;">
+                <button onclick="sendData(2)">Registrieren</button>
+                <p id="registerError">FEHLER</p>
+            </div>
+        </center>
+        <script src="js/app.js"></script>
+        <script src="js/fontawesome.js"></script>
+    </body>
+</html>

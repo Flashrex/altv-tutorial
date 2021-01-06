@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>E:\Coding\AltV\altv-release\altv-server\resources\altvtutorial\</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AltV.Net" Version="1.48.3" />
+    <PackageReference Include="AltV.Net.Async" Version="1.48.3" />
+    <PackageReference Include="AltV.Net.Resources.Chat.Api" Version="1.48.0" />
+    <PackageReference Include="MySql.Data" Version="8.0.22" />
+  </ItemGroup>
+
+</Project>
