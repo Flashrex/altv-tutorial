@@ -101,7 +101,7 @@ namespace altvtutorial {
             Regex regex = new Regex(@"([a-zA-Z]+)_([a-zA-Z]+)");
 
             if (!regex.IsMatch(username)) {
-                player.Emit("alttutorial:loginError", 1, "Der Name muss dem Format: Vorname_Nachname entsprechen.");
+                player.Emit("alttutorial:loginError", 2, "Der Name muss dem Format: Vorname_Nachname entsprechen.");
                 return;
             }
 
