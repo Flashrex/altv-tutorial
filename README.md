@@ -25,6 +25,6 @@ Codingstube Discord: https://discord.gg/5au9Wjx
 
 Dir gefällt mein Stuff? Schau gerne mal auf meinen Social Medias vorbei:
 
-Twitter: https://twitter.com/flashrex_
-Twitch: https://twitch.tv/flashrex
-Youtube: https://youtube.com/c/Flashrex
+* Twitter: https://twitter.com/flashrex_
+* Twitch: https://twitch.tv/flashrex
+* Youtube: https://youtube.com/c/Flashrex
