@@ -48,10 +48,6 @@
               "target": "Package",
               "version": "[1.48.3, )"
             },
-            "AltV.Net.Async": {
-              "target": "Package",
-              "version": "[1.48.3, )"
-            },
             "AltV.Net.Resources.Chat.Api": {
               "target": "Package",
               "version": "[1.48.0, )"

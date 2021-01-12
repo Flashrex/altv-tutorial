@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ttdrt93V6D9MUVvF5RX7olBChuCjG1nmf1IBEg9jncHfzJu1UFTp9M+9cY3Lie0rUQG8qq2Rmqn3lyAnN5bLUQ==",
+  "dgSpecHash": "lrN+LUmW+e0MvNQ99sHvcMwMM4KQzTvxGu9b6WDSDXr5br9xbhP3FbmHkZ3d0o5jLWvIHIgdInEjqjzFl/brRA==",
   "success": true,
   "projectFilePath": "E:\\Coding\\AltV\\altv-tutorial\\altv-tutorial\\altvtutorial\\altvtutorial\\altvtutorial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\domin\\.nuget\\packages\\altv.net\\1.48.3\\altv.net.1.48.3.nupkg.sha512",
-    "C:\\Users\\domin\\.nuget\\packages\\altv.net.async\\1.48.3\\altv.net.async.1.48.3.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\altv.net.resources.chat.api\\1.48.0\\altv.net.resources.chat.api.1.48.0.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
@@ -84,7 +83,6 @@
     "C:\\Users\\domin\\.nuget\\packages\\system.text.encoding.extensions\\4.0.11\\system.text.encoding.extensions.4.0.11.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\system.text.regularexpressions\\4.1.0\\system.text.regularexpressions.4.1.0.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\system.threading\\4.0.11\\system.threading.4.0.11.nupkg.sha512",
-    "C:\\Users\\domin\\.nuget\\packages\\system.threading.channels\\5.0.0\\system.threading.channels.5.0.0.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\system.threading.tasks.extensions\\4.0.0\\system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "C:\\Users\\domin\\.nuget\\packages\\system.threading.thread\\4.0.0\\system.threading.thread.4.0.0.nupkg.sha512",

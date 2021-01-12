@@ -32,10 +32,18 @@ namespace altvtutorial {
                 return;
             }
 
+            MyVehicle veh;
+            if (player.HasData("altvtutorial:vehicle")) {
+                player.GetData("altvtutorial:vehicle", out veh);
+                veh.Remove();
+            }
+
             //IVehicle veh = Alt.CreateVehicle(vehHash, GetRandomPositionAround(player.Position, 5.0f), player.Rotation);
-            MyVehicle veh = new MyVehicle(vehHash, GetRandomPositionAround(player.Position, 5.0f), player.Rotation);
+            veh = new MyVehicle(vehHash, GetRandomPositionAround(player.Position, 5.0f), player.Rotation);
             veh.PrimaryColorRgb = new Rgba(Convert.ToByte(r), Convert.ToByte(g), Convert.ToByte(b), 255);
             veh.SecondaryColorRgb = new Rgba(Convert.ToByte(r), Convert.ToByte(g), Convert.ToByte(b), 255);
+
+            player.SetData("altvtutorial:vehicle", veh);
 
             player.SendChatMessage("Fahrzeug gespawnt!");
             
@@ -53,6 +61,11 @@ namespace altvtutorial {
             if (!player.IsInVehicle || player.Seat != 1) return;
             MyVehicle veh = (MyVehicle)player.Vehicle;
             veh.Repair();
+        }
+
+        [Command("team")]
+        public static void CMD_Team(MyPlayer player, int team) {
+            player.SetTeam(team);
         }
 
         public static Position GetRandomPositionAround(Position pos, float range) {

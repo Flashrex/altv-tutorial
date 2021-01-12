@@ -74,7 +74,9 @@ namespace altvtutorial {
                 player.Spawn(new Position(0, 0, 72), 0);
                 player.Emit("alttutorial:loginSuccess");
                 player.SendNotification("Erfolgreich eingeloggt!");
-            
+                if (player.HasData("alttutorial:loginattempts")) player.DeleteData("alttutorial:loginattempts");
+
+
             } else {
                 //Passwort ist nicht korrekt
                 player.Emit("alttutorial:loginError", 1, "Login Daten stimmen nicht überein!");

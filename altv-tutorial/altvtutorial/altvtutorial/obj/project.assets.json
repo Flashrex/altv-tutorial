@@ -11,19 +11,6 @@
           "lib/netcoreapp3.1/AltV.Net.dll": {}
         }
       },
-      "AltV.Net.Async/1.48.3": {
-        "type": "package",
-        "dependencies": {
-          "AltV.Net": "1.48.3",
-          "System.Threading.Channels": "5.0.0"
-        },
-        "compile": {
-          "lib/netcoreapp3.1/AltV.Net.Async.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/AltV.Net.Async.dll": {}
-        }
-      },
       "AltV.Net.Resources.Chat.Api/1.48.0": {
         "type": "package",
         "dependencies": {
@@ -1401,15 +1388,6 @@
           "lib/netstandard1.3/System.Threading.dll": {}
         }
       },
-      "System.Threading.Channels/5.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
-        }
-      },
       "System.Threading.Tasks/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1615,21 +1593,6 @@
         "icon.png",
         "lib/net5.0/AltV.Net.dll",
         "lib/netcoreapp3.1/AltV.Net.dll",
-        "license.txt"
-      ]
-    },
-    "AltV.Net.Async/1.48.3": {
-      "sha512": "Tsrx0fa9PtuxcRu67wwyg0owaLwrDDwDRhC9PKOl09cvyVFkIBE045ku/nvXTPRjgtIG0+0123q3pwNdJfP0RQ==",
-      "type": "package",
-      "path": "altv.net.async/1.48.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "altv.net.async.1.48.3.nupkg.sha512",
-        "altv.net.async.nuspec",
-        "icon.png",
-        "lib/net5.0/AltV.Net.Async.dll",
-        "lib/netcoreapp3.1/AltV.Net.Async.dll",
         "license.txt"
       ]
     },
@@ -5185,32 +5148,6 @@
         "system.threading.nuspec"
       ]
     },
-    "System.Threading.Channels/5.0.0": {
-      "sha512": "RLBIxntLaG9pRmmuVDwY1kc8Bvp/FQzSxPU+19VekkScKkWtVP9r8bLhm28ama3usc816UBrmkg3vv3jUea/hw==",
-      "type": "package",
-      "path": "system.threading.channels/5.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Threading.Channels.dll",
-        "lib/net461/System.Threading.Channels.xml",
-        "lib/netcoreapp3.0/System.Threading.Channels.dll",
-        "lib/netcoreapp3.0/System.Threading.Channels.xml",
-        "lib/netstandard1.3/System.Threading.Channels.dll",
-        "lib/netstandard1.3/System.Threading.Channels.xml",
-        "lib/netstandard2.0/System.Threading.Channels.dll",
-        "lib/netstandard2.0/System.Threading.Channels.xml",
-        "lib/netstandard2.1/System.Threading.Channels.dll",
-        "lib/netstandard2.1/System.Threading.Channels.xml",
-        "system.threading.channels.5.0.0.nupkg.sha512",
-        "system.threading.channels.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Threading.Tasks/4.3.0": {
       "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "type": "package",
@@ -5711,7 +5648,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AltV.Net >= 1.48.3",
-      "AltV.Net.Async >= 1.48.3",
       "AltV.Net.Resources.Chat.Api >= 1.48.0",
       "MySql.Data >= 8.0.22"
     ]
@@ -5761,10 +5697,6 @@
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AltV.Net": {
-            "target": "Package",
-            "version": "[1.48.3, )"
-          },
-          "AltV.Net.Async": {
             "target": "Package",
             "version": "[1.48.3, )"
           },
