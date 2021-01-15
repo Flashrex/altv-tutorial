@@ -27,7 +27,7 @@ namespace altvtutorial {
         [Command("veh")]
         public static void CMD_CreateVehicle(MyPlayer player, string vehName, int r = 0, int g = 0, int b = 0) {
             uint vehHash = Alt.Hash(vehName);
-            if(!Enum.IsDefined(typeof(VehicleModel), vehHash)) {
+            if(!Enum.IsDefined(typeof(AltV.Net.Enums.VehicleModel), vehHash)) {
                 player.SendChatMessage("[Server] Ungültiger Fahrzeugname!");
                 return;
             }

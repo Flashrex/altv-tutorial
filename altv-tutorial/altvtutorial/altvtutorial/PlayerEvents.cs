@@ -18,8 +18,10 @@ namespace altvtutorial {
         [ScriptEvent(ScriptEventType.PlayerConnect)]
         public void OnPlayerConnect(MyPlayer player, string reason) {
 
-            player.Model = (uint)PedModel.Azteca01GMY;
+            player.Model = (uint)PedModel.FreemodeMale01;
             player.Spawn(new Position(0, 0, 75), 0);
+            player.Emit("altvtutorial:configflags");
+
             //Alt.Emit("eventname");
 
             /*if (PlayerDatabase.DoesPlayerNameExists(player.Name)) {
@@ -115,6 +117,7 @@ namespace altvtutorial {
                 player.Spawn(new Position(0, 0, 72), 0);
                 player.Emit("alttutorial:loginSuccess");
             }
+
         }
     }
 }
