@@ -14,7 +14,7 @@ namespace altvtutorial {
 
             foreach(MyPlayer target in Alt.GetAllPlayers()) {
                 if(target.Position.Distance(player.Position) <= 10) {
-                    player.SendChatMessage($"{player.Name} sagt: {msg}");
+                    target.SendChatMessage($"{player.Name} sagt: {msg}");
                 }
             }
         }
